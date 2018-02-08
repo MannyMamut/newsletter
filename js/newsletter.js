@@ -17,7 +17,7 @@ $(document).ready(function(){
   });
 
 
-  // input de nombre
+  // input de  nombre
   $('input#nombre').on('keyup',function(){
     datos_contacto.nombre = $('input#nombre').val().trim();
     if( datos_contacto.nombre ){
